@@ -4,24 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- TODO: Add a page title -->
+  <!-- Page title (shown in browser tab)-->>
+   <title>Arizona Web Map</title>
 
-  <!-- TODO: Add Leaflet CSS -->
+  <!-- Leaflet CSS (required for map styling) -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
   
-  <!-- TODO: Add Leaflet JavaScript -->
+  <!-- Leaflet JavaScript -->
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
   
-  <!-- TODO: Add your custom stylesheet -->
+  <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/styles.css">
+  
 
-  <!-- TODO: Add your JavaScript file -->
+  <!-- Custom JavaScript file -->
+  <script src="js/map_code.js"></script> 
   
 </head>
 <body>
 
-  <!-- TODO: Add a header for your page -->
+  <!-- Title/header id="page-title" -->
+   <!--Title/header-->
+   <div id="page-title">
+    <h1>Arizona Web map</h1>
+   </div>
 
   <!-- TODO: Map container (Leaflet targets this div by ID) -->
+  <div id="map"></div>
     
-  <!-- TODO: Add a footer for your page -->
+  <!-- Footer - id="page-footer" -->
+  <footer id="page-footer">
+  </footer> 
   
 </body>
 </html>
