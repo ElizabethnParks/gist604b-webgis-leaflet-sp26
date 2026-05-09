@@ -21,8 +21,7 @@ This project focused on building a client-side WebGIS application using HTML, Ja
 - Publish the web map using GitHub Pages.
 
   ## How to View / Run
-[
-](https://elizabethnparks.github.io/gist604b-webgis-leaflet-sp26/)
+(https://elizabethnparks.github.io/gist604b-webgis-leaflet-sp26/)
 
 ## Repository Structure
     .
@@ -40,9 +39,3 @@ This project focused on building a client-side WebGIS application using HTML, Ja
     ├── .gitignore
     └── README.md
 
-## Notes
-- Replace the placeholder filenames in `data/`, `js/`, and `css/` with your own files.
-- All GeoJSON datasets must be in WGS84 (EPSG:4326) and placed in the `data/` folder.
-- Run `npm install` to install dependencies and `npm start` to launch the local development server.
-- Open `http://localhost:8080` in your browser to preview your map during development.
-- The final web map is published using GitHub Pages.
