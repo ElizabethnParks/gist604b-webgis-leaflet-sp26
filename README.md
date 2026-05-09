@@ -9,10 +9,10 @@
 This project focused on building a client-side WebGIS application using HTML, Javascript, and the Leaflet library. Using Visual Studio Code, I developed a web map that loads and displays spatial data. The final application was published using GitHub Pages to make the web map accessible online.
 
 ## Tools and Technologies
--Leaflet
--HTML, CSS, HTML
--GeoJSON
--GitHub Pages
+- Leaflet
+- HTML, CSS, HTML
+- GeoJSON
+- GitHub Pages
 - Visual Studio Code
 
 ## What I Did
@@ -20,7 +20,7 @@ This project focused on building a client-side WebGIS application using HTML, Ja
 - Create a CSS, Javscript, and HTML to create an accessible web map.
 - Publish the web map using GitHub Pages.
 
-  ## How to View / Run
+## How to View / Run
 (https://elizabethnparks.github.io/gist604b-webgis-leaflet-sp26/)
 
 ## Repository Structure
